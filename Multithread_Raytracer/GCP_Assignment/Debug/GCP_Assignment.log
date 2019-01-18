@@ -1,0 +1,39 @@
+﻿  Main.cpp
+w:\year 3\graphics\assignment\multithread_raytracer\gcp_assignment\main.cpp(175): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+w:\year 3\graphics\assignment\multithread_raytracer\gcp_assignment\main.cpp(176): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+w:\year 3\graphics\assignment\multithread_raytracer\gcp_assignment\main.cpp(182): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+w:\year 3\graphics\assignment\multithread_raytracer\gcp_assignment\main.cpp(183): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+w:\year 3\graphics\assignment\multithread_raytracer\gcp_assignment\main.cpp(194): warning C4018: '<': signed/unsigned mismatch
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\memory(1801): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\memory(1865): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<glm::tvec3<float,0>,int,glm::tvec3<float,0>>(glm::tvec3<float,0> &&,int &&,glm::tvec3<float,0> &&)' being compiled
+          with
+          [
+              _Ty=Sphere
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<glm::tvec3<float,0>,int,glm::tvec3<float,0>>(glm::tvec3<float,0> &&,int &&,glm::tvec3<float,0> &&)' being compiled
+          with
+          [
+              _Ty=Sphere
+          ]
+  w:\year 3\graphics\assignment\multithread_raytracer\gcp_assignment\main.cpp(128): note: see reference to function template instantiation 'std::shared_ptr<Sphere> std::make_shared<Sphere,glm::vec3,int,glm::vec3>(glm::vec3 &&,int &&,glm::vec3 &&)' being compiled
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\memory(1801): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\memory(1865): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<glm::tvec3<float,0>,double,glm::tvec3<float,0>>(glm::tvec3<float,0> &&,double &&,glm::tvec3<float,0> &&)' being compiled
+          with
+          [
+              _Ty=Sphere
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<glm::tvec3<float,0>,double,glm::tvec3<float,0>>(glm::tvec3<float,0> &&,double &&,glm::tvec3<float,0> &&)' being compiled
+          with
+          [
+              _Ty=Sphere
+          ]
+  w:\year 3\graphics\assignment\multithread_raytracer\gcp_assignment\main.cpp(129): note: see reference to function template instantiation 'std::shared_ptr<Sphere> std::make_shared<Sphere,glm::vec3,double,glm::vec3>(glm::vec3 &&,double &&,glm::vec3 &&)' being compiled
+  GCP_Assignment.vcxproj -> W:\Year 3\Graphics\Assignment\Multithread_Raytracer\Debug\GCP_Assignment.exe
